@@ -1,0 +1,41 @@
+{
+  "name": "express-vhost",
+   "version": "0.1.0",
+   "main": "index",
+   "description": "Scalable vhost middleware for express.",
+   "keywords": [
+       "node",
+       "vhost",
+       "middleware",
+       "connect",
+       "express"
+   ],
+   "author": {
+       "name": "Tommy Messbauer",
+       "email": "tom.messbauer@gmail.com",
+       "web": "http://www.vast.com"
+    }, 
+   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "directories": {
+    "tests": "tests"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "scripts": {
+    "test": "node /tests/example.js"
+  },
+  "dependencies": {
+    "lodash": "0.7.0"
+    },
+  "devDependencies": {
+    "optimist": "*"
+  	},
+  "optionalDependencies": {},
+  "homepage": "http://vastdevblog.vast.com/"
+}
+
