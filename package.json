@@ -24,17 +24,17 @@
     "tests": "tests"
   },
   "engines": {
-    "node": ">=0.6.0"
+    "node": ">=0.8.0"
   },
   "scripts": {
-    "test": "node /tests/example.js"
+    "test": "node tests/vhost.js"
   },
   "dependencies": {
-    "lodash": "0.7.0"
-    },
+  },
   "devDependencies": {
-    "optimist": "*"
-  	},
+    "tap": "*",
+    "express": "*"
+  },
   "optionalDependencies": {},
   "homepage": "http://vastdevblog.vast.com/"
 }
