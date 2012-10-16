@@ -5,7 +5,7 @@ Improves on express.js middleware for vhost by avoiding expensive regex chains. 
 
 ``` javascript
 
-var evh = require('../index'),
+var evh = require('express-vhost'),
 	express = require('express');
 
 var appFactory = function(echo) {
