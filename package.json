@@ -12,13 +12,13 @@
    ],
    "author": {
        "name": "Tommy Messbauer",
-       "email": "tom.messbauer@gmail.com",
-       "web": "http://www.vast.com"
+       "email": "tommy@vast.com",
+       "web": "http://vastdevblog.vast.com/"
     }, 
    "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git@github.com:vast-eng/express-vhost.git"
   },
   "directories": {
     "tests": "tests"

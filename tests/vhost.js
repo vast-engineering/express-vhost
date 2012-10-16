@@ -22,7 +22,6 @@ evh.register('test1-local', appFactory('test1'));
 evh.register('test2-local', appFactory('test2'));
 
 // NOTE: Before running this test insure that you have setup local hosts file to point these domains to 127.0.0.1
-debugger;
 test("Test 1", function(t) {
 	var body = '';
 
