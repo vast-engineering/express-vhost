@@ -22,6 +22,8 @@ server.use(evh.vhost());
 server.listen(port);
 
 evh.register('test1-local', appFactory('test1'));
-evh.register('test2-local', appFactory('test2'));
+var app2 = appFactory('test2');
+evh.register('test2-local', app2);
+evh.register('*.test2-local', appFactory('test2'));
 
 ```

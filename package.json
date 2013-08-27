@@ -1,21 +1,21 @@
 {
   "name": "express-vhost",
-   "version": "0.1.0",
-   "main": "index",
-   "description": "Scalable vhost middleware for express.",
-   "keywords": [
-       "node",
-       "vhost",
-       "middleware",
-       "connect",
-       "express"
-   ],
-   "author": {
-       "name": "Tommy Messbauer",
-       "email": "tommy@vast.com",
-       "web": "http://vastdevblog.vast.com/"
-    }, 
-   "license": "MIT",
+  "version": "0.1.1",
+  "main": "index",
+  "description": "Scalable vhost middleware for express.",
+  "keywords": [
+    "node",
+    "vhost",
+    "middleware",
+    "connect",
+    "express"
+  ],
+  "author": {
+    "name": "Tommy Messbauer",
+    "email": "tommy@vast.com",
+    "web": "http://vastdevblog.vast.com/"
+  },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git@github.com:vast-eng/express-vhost.git"
@@ -29,8 +29,7 @@
   "scripts": {
     "test": "node tests/vhost.js"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "tap": "*",
     "express": "*"
@@ -38,4 +37,3 @@
   "optionalDependencies": {},
   "homepage": "http://vastdevblog.vast.com/"
 }
-
